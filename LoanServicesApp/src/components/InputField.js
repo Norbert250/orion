@@ -15,6 +15,7 @@ const InputField = ({
   <View style={styles.inputContainer}>
     <Text style={styles.inputLabel}>
       {label} {required && <Text style={styles.required}>*</Text>}
+      }
     </Text>
     <View style={styles.inputWrapper}>
       {icon && <Ionicons name={icon} size={16} color={colors.textSecondary} />}
